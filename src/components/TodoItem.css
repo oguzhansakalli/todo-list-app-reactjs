@@ -1,0 +1,48 @@
+/* Style each task as a separate box */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc; /* Add a border for separation */
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the task text */
+  li span {
+    flex: 1; /* Allow the task text to grow to fill space */
+    text-align: left; /* Align the task text to the left */
+  }
+
+  li.completed {
+    background-color: #bff7bf; /* Light green background */
+    opacity: 0.8; /* Fade out the text slightly */
+  }
+
+
+/* Add styles to make the icons inline with the task text */
+.icon {
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  
+  /* Style the icon buttons to look like images */
+  .icon-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    vertical-align: middle;
+    margin-left: 8px;
+  }
+
+  /* Style the task text */
+.task-text {
+    flex: 1;
+    font-size: 50px;
+    text-align: left;
+    color: #4a0d67; /* Customize the task text color */
+  }
