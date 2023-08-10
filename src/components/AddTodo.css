@@ -2,28 +2,35 @@
 
 /* Style the add task section */
 .add-task {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  /* Style the text input */
-  .task-input {
-    flex: 1;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    padding: 5px;
-    margin-left: 10px;
-    outline: none;
-  }
-  
-  /* Style the icon button */
-  .add-button {
-    border: none;
-    background: transparent;
-    padding: 0;
-    cursor: pointer;
-    outline: none;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.add-task img {
+  width: 60px;
+  height: 60px;
+}
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Style the text input */
+.task-input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin-left: 10px;
+  outline: none;
+}
+
+/* Style the icon button */
+.add-button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}

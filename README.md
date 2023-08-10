@@ -35,6 +35,7 @@ Follow these steps to get the app up and running on your local machine:
 ## Usage
 
 - Click the "New Task" button to add a new task.
+- Press the Enter key to submit the new task after typing it in the input field.
 - Click the green tick to mark a task as completed.
 - Click the undo button to undo a completed task.
 - Click the red X to delete a task.

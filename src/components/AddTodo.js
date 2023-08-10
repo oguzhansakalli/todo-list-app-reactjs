@@ -26,20 +26,11 @@ function AddTodo({ addTodo }) {
     <div className="add-task">
       {!showInput ? (
         <button className="add-button" onClick={handleInputToggle}>
-          <img
-            src="images/new-task.png"
-            alt="Add New Task"
-            style={{ width: "60px", height: "60px" }}
-          />
+          <img src="images/new-task.png" alt="Add New Task" />
         </button>
       ) : (
         <div>
-          <img
-            src="images/quest-icon.png"
-            alt="Quest"
-            className="icon"
-            style={{ width: "50px", height: "50px" }}
-          />
+          <img src="images/quest-icon.png" alt="Quest" className="icon" />
           <input
             type="text"
             className="task-input"
